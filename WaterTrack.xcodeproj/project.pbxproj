@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7187636A2ACEFDEA0022F066 /* WaterTrackApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 718763692ACEFDEA0022F066 /* WaterTrackApp.swift */; };
+		7187636C2ACEFDEA0022F066 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7187636B2ACEFDEA0022F066 /* ContentView.swift */; };
+		7187636E2ACEFDEB0022F066 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7187636D2ACEFDEB0022F066 /* Assets.xcassets */; };
+		718763712ACEFDEB0022F066 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 718763702ACEFDEB0022F066 /* Preview Assets.xcassets */; };
+		7187637B2ACEFDEB0022F066 /* WaterTrackTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7187637A2ACEFDEB0022F066 /* WaterTrackTests.swift */; };
+		718763852ACEFDEB0022F066 /* WaterTrackUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 718763842ACEFDEB0022F066 /* WaterTrackUITests.swift */; };
+		718763872ACEFDEB0022F066 /* WaterTrackUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 718763862ACEFDEB0022F066 /* WaterTrackUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		718763772ACEFDEB0022F066 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7187635E2ACEFDEA0022F066 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 718763652ACEFDEA0022F066;
+			remoteInfo = WaterTrack;
+		};
+		718763812ACEFDEB0022F066 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7187635E2ACEFDEA0022F066 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 718763652ACEFDEA0022F066;
+			remoteInfo = WaterTrack;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		718763662ACEFDEA0022F066 /* WaterTrack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WaterTrack.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		718763692ACEFDEA0022F066 /* WaterTrackApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterTrackApp.swift; sourceTree = "<group>"; };
+		7187636B2ACEFDEA0022F066 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7187636D2ACEFDEB0022F066 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		718763702ACEFDEB0022F066 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		718763762ACEFDEB0022F066 /* WaterTrackTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WaterTrackTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7187637A2ACEFDEB0022F066 /* WaterTrackTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterTrackTests.swift; sourceTree = "<group>"; };
+		718763802ACEFDEB0022F066 /* WaterTrackUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WaterTrackUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		718763842ACEFDEB0022F066 /* WaterTrackUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterTrackUITests.swift; sourceTree = "<group>"; };
+		718763862ACEFDEB0022F066 /* WaterTrackUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterTrackUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		718763632ACEFDEA0022F066 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		718763732ACEFDEB0022F066 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7187637D2ACEFDEB0022F066 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7187635D2ACEFDEA0022F066 = {
+			isa = PBXGroup;
+			children = (
+				718763682ACEFDEA0022F066 /* WaterTrack */,
+				718763792ACEFDEB0022F066 /* WaterTrackTests */,
+				718763832ACEFDEB0022F066 /* WaterTrackUITests */,
+				718763672ACEFDEA0022F066 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		718763672ACEFDEA0022F066 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				718763662ACEFDEA0022F066 /* WaterTrack.app */,
+				718763762ACEFDEB0022F066 /* WaterTrackTests.xctest */,
+				718763802ACEFDEB0022F066 /* WaterTrackUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		718763682ACEFDEA0022F066 /* WaterTrack */ = {
+			isa = PBXGroup;
+			children = (
+				718763692ACEFDEA0022F066 /* WaterTrackApp.swift */,
+				7187636B2ACEFDEA0022F066 /* ContentView.swift */,
+				7187636D2ACEFDEB0022F066 /* Assets.xcassets */,
+				7187636F2ACEFDEB0022F066 /* Preview Content */,
+			);
+			path = WaterTrack;
+			sourceTree = "<group>";
+		};
+		7187636F2ACEFDEB0022F066 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				718763702ACEFDEB0022F066 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		718763792ACEFDEB0022F066 /* WaterTrackTests */ = {
+			isa = PBXGroup;
+			children = (
+				7187637A2ACEFDEB0022F066 /* WaterTrackTests.swift */,
+			);
+			path = WaterTrackTests;
+			sourceTree = "<group>";
+		};
+		718763832ACEFDEB0022F066 /* WaterTrackUITests */ = {
+			isa = PBXGroup;
+			children = (
+				718763842ACEFDEB0022F066 /* WaterTrackUITests.swift */,
+				718763862ACEFDEB0022F066 /* WaterTrackUITestsLaunchTests.swift */,
+			);
+			path = WaterTrackUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		718763652ACEFDEA0022F066 /* WaterTrack */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7187638A2ACEFDEB0022F066 /* Build configuration list for PBXNativeTarget "WaterTrack" */;
+			buildPhases = (
+				718763622ACEFDEA0022F066 /* Sources */,
+				718763632ACEFDEA0022F066 /* Frameworks */,
+				718763642ACEFDEA0022F066 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WaterTrack;
+			productName = WaterTrack;
+			productReference = 718763662ACEFDEA0022F066 /* WaterTrack.app */;
+			productType = "com.apple.product-type.application";
+		};
+		718763752ACEFDEB0022F066 /* WaterTrackTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7187638D2ACEFDEB0022F066 /* Build configuration list for PBXNativeTarget "WaterTrackTests" */;
+			buildPhases = (
+				718763722ACEFDEB0022F066 /* Sources */,
+				718763732ACEFDEB0022F066 /* Frameworks */,
+				718763742ACEFDEB0022F066 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				718763782ACEFDEB0022F066 /* PBXTargetDependency */,
+			);
+			name = WaterTrackTests;
+			productName = WaterTrackTests;
+			productReference = 718763762ACEFDEB0022F066 /* WaterTrackTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7187637F2ACEFDEB0022F066 /* WaterTrackUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 718763902ACEFDEB0022F066 /* Build configuration list for PBXNativeTarget "WaterTrackUITests" */;
+			buildPhases = (
+				7187637C2ACEFDEB0022F066 /* Sources */,
+				7187637D2ACEFDEB0022F066 /* Frameworks */,
+				7187637E2ACEFDEB0022F066 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				718763822ACEFDEB0022F066 /* PBXTargetDependency */,
+			);
+			name = WaterTrackUITests;
+			productName = WaterTrackUITests;
+			productReference = 718763802ACEFDEB0022F066 /* WaterTrackUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7187635E2ACEFDEA0022F066 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					718763652ACEFDEA0022F066 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					718763752ACEFDEB0022F066 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 718763652ACEFDEA0022F066;
+					};
+					7187637F2ACEFDEB0022F066 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 718763652ACEFDEA0022F066;
+					};
+				};
+			};
+			buildConfigurationList = 718763612ACEFDEA0022F066 /* Build configuration list for PBXProject "WaterTrack" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7187635D2ACEFDEA0022F066;
+			productRefGroup = 718763672ACEFDEA0022F066 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				718763652ACEFDEA0022F066 /* WaterTrack */,
+				718763752ACEFDEB0022F066 /* WaterTrackTests */,
+				7187637F2ACEFDEB0022F066 /* WaterTrackUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		718763642ACEFDEA0022F066 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				718763712ACEFDEB0022F066 /* Preview Assets.xcassets in Resources */,
+				7187636E2ACEFDEB0022F066 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		718763742ACEFDEB0022F066 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7187637E2ACEFDEB0022F066 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		718763622ACEFDEA0022F066 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7187636C2ACEFDEA0022F066 /* ContentView.swift in Sources */,
+				7187636A2ACEFDEA0022F066 /* WaterTrackApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		718763722ACEFDEB0022F066 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7187637B2ACEFDEB0022F066 /* WaterTrackTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7187637C2ACEFDEB0022F066 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				718763872ACEFDEB0022F066 /* WaterTrackUITestsLaunchTests.swift in Sources */,
+				718763852ACEFDEB0022F066 /* WaterTrackUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		718763782ACEFDEB0022F066 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 718763652ACEFDEA0022F066 /* WaterTrack */;
+			targetProxy = 718763772ACEFDEB0022F066 /* PBXContainerItemProxy */;
+		};
+		718763822ACEFDEB0022F066 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 718763652ACEFDEA0022F066 /* WaterTrack */;
+			targetProxy = 718763812ACEFDEB0022F066 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		718763882ACEFDEB0022F066 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		718763892ACEFDEB0022F066 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7187638B2ACEFDEB0022F066 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WaterTrack/Preview Content\"";
+				DEVELOPMENT_TEAM = 8PRM5XA7ZM;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Jood.WaterTrack;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7187638C2ACEFDEB0022F066 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WaterTrack/Preview Content\"";
+				DEVELOPMENT_TEAM = 8PRM5XA7ZM;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Jood.WaterTrack;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7187638E2ACEFDEB0022F066 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8PRM5XA7ZM;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Jood.WaterTrackTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WaterTrack.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WaterTrack";
+			};
+			name = Debug;
+		};
+		7187638F2ACEFDEB0022F066 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8PRM5XA7ZM;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Jood.WaterTrackTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WaterTrack.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WaterTrack";
+			};
+			name = Release;
+		};
+		718763912ACEFDEB0022F066 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8PRM5XA7ZM;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Jood.WaterTrackUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WaterTrack;
+			};
+			name = Debug;
+		};
+		718763922ACEFDEB0022F066 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8PRM5XA7ZM;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Jood.WaterTrackUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WaterTrack;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		718763612ACEFDEA0022F066 /* Build configuration list for PBXProject "WaterTrack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				718763882ACEFDEB0022F066 /* Debug */,
+				718763892ACEFDEB0022F066 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7187638A2ACEFDEB0022F066 /* Build configuration list for PBXNativeTarget "WaterTrack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7187638B2ACEFDEB0022F066 /* Debug */,
+				7187638C2ACEFDEB0022F066 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7187638D2ACEFDEB0022F066 /* Build configuration list for PBXNativeTarget "WaterTrackTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7187638E2ACEFDEB0022F066 /* Debug */,
+				7187638F2ACEFDEB0022F066 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		718763902ACEFDEB0022F066 /* Build configuration list for PBXNativeTarget "WaterTrackUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				718763912ACEFDEB0022F066 /* Debug */,
+				718763922ACEFDEB0022F066 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7187635E2ACEFDEA0022F066 /* Project object */;
+}
